@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: login-service
+
+  config:
+    import: "configserver:http://localhost:8888"
